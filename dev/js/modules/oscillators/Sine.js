@@ -12,8 +12,9 @@
 	 * 
 	 */
 	
+    this.BitCrusher = this.BitCrusher || {};
 	
-	(function(window) {
+	(function() {
 		
 		
 		var SineWaveOscillator = function () {
@@ -39,6 +40,6 @@
 			
 		};
 		
-		window.SineWaveOscillator = SineWaveOscillator;
+		BitCrusher.SineWaveOscillator = SineWaveOscillator;
 	
-	}(window));
+	}());

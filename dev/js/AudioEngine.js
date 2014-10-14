@@ -1,7 +1,8 @@
 
 
+this.BitCrusher = this.BitCrusher || {};
 
-( function(window) {
+(function() {
 
 		var AudioEngine = function(context) {
 
@@ -13,7 +14,7 @@
 
 		p.$init = function(context) {
 			
-			this.osc1 = new SineWaveOscillator();
+			this.osc1 = new BitCrusher.SineWaveOscillator();
 
 			var targ = this;
 			this.x = 0;
@@ -86,6 +87,6 @@
 		
 		
 
-		window.AudioEngine = AudioEngine;
+		BitCrusher.AudioEngine = AudioEngine;
 
-	}(window)); 
+	}()); 

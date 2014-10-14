@@ -11,9 +11,12 @@
 	 * 	http://www.industrialassets.co.uk
 	 * 
 	 */
+
+
+    this.BitCrusher = this.BitCrusher || {};
 	
 	
-	(function(window) {
+	(function() {
 		
 		
 		var NoiseOscillator = function () {
@@ -39,6 +42,6 @@
 			
 		};
 		
-		window.NoiseOscillator = NoiseOscillator;
+		BitCrusher.NoiseOscillator = NoiseOscillator;
 	
-	}(window));
+	}());
