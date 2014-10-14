@@ -1,6 +1,5 @@
- ______  _____ _______ _______  ______ _     _ _______ _     _ _______  ______
- |_____]   |      |    |       |_____/ |     | |______ |_____| |______ |_____/
- |_____] __|__    |    |_____  |    \_ |_____| ______| |     | |______ |    \_
+
+BITCRUSHER
                                                                               
 
 Bitcrusher is an open source HTML5 / JavaScript modular synthesizer, similar to professional Desktop products like Reaktor.
